@@ -6,7 +6,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Category extends Model
 {
-    public const MODEL_TYPE = 'categories';
 
     protected $table = 'categories';
     /**

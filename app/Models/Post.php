@@ -12,7 +12,6 @@ class Post extends Model
     /**
      * @var string[]
      */
-    public const MODEL_TYPE = 'posts';
     protected $fillable = ['content', 'published_at', 'slug', 'title'];
 
     /**
